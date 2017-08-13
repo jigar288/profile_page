@@ -1,0 +1,109 @@
+h2 {
+    color: black;
+    font-size: 35px;
+  }
+
+
+.summary_heading {
+    color: black;
+  }
+
+.paragraph {
+    color: white;
+    padding-bottom: 15px;
+    color: black;
+  }
+
+ol#orderedlist {
+  color: blue;
+  list-style-position: inside;
+
+}
+
+ul#unorderedlist {
+  color: red;
+  list-style-position: inside;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+
+.name-pic {
+
+  padding: 3px;
+  margin-left: 100px
+
+}
+
+body {
+  text-align: center;
+  background-color: #FAFAFA;
+}
+
+
+
+
+
+.navul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navli {
+    float: left;
+}
+
+.navli a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navli a:hover:not(.active) {
+    background-color: #111;
+}
+
+#disappear-btn{
+  background-color: gray;
+  width: 100px;
+  margin: auto;
+
+}
+
+
+.disappear-div {
+  display: inline;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.active {
+    background-color: #42A5F5;
+}
+
+.demo-card-wide.mdl-card {
+  width: 1200px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('../assets/demos/welcome_card.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+#card {
+  margin: auto;
+
+}

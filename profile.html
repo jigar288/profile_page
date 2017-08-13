@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jigar Patel's Profile</title>
+
+<link rel="stylesheet" href="profile.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+
+<script src="profile.js"> </script>
+
+</head>
+
+<body>
+
+  <!-- Always shows a header, even in smaller screens. -->
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">Profile</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation. We hide it in small screens. -->
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+          <a class="mdl-navigation__link" href="hello.html">Hello</a>
+          <a class="mdl-navigation__link" href="photos.html">Photos</a>
+
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Profile</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="hello.html">Hello</a>
+        <a class="mdl-navigation__link" href="photos.html">Photos</a>
+
+      </nav>
+    </div>
+    <main class="mdl-layout__content">
+      <div class="page-content"><!-- Your content goes here -->
+
+<br/>
+
+
+
+        <div class="demo-card-wide mdl-card mdl-shadow--2dp" id=card>
+          <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">Welcome</h2>
+          </div>
+          <div class="mdl-card__supporting-text">
+            <div class="name-pic">
+
+                <h2>Jigar Patel</h2>
+
+                <img class="disappear-div" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAkCAAAAJGM5NjcwNmQ4LTM1YTYtNDc3OS1iMmQ2LTk2OWJlMDRmNzM4YQ.jpg" width="80" height="80" alt="Photo of Matthew
+                Levine">
+
+
+            <br/>
+
+            <br/>
+
+                <!-- Accent-colored raised button with ripple -->
+              <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="disappear-btn" class="btn">
+                Click me
+              </button>
+
+              <!-- Accent-colored raised button with ripple -->
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="submitbutton">
+            Submit</button>
+
+            <br/>
+            <br/>
+
+            Enter text:  <input type="text">
+              <br>
+             You typed: <span id="result"> </span>
+
+
+                     <div class="paragraph">
+
+                         <h2 class="summary_heading">Summary</h2>
+
+                           <p>I live in Niles, IL and spending the next three weeks at Google. I like running, hanging out in
+                           downtown Chicago, and learning about computer science.</p>
+
+
+                     </div>
+
+
+
+                             <div class="paragraph">
+
+
+                                 <h2>Hometown</h2>
+                                 Niles, Illinois
+
+                             </div>
+
+                             <div class="paragraph">
+
+                                   <div class="headers">
+
+                                   <h2>University</h2>
+
+                                 University of Illinois at Chicago
+
+                                   </div>
+
+                             </div>
+
+                             <div class="paragraph">
+
+
+                                 <h2>Other Profiles</h2>
+
+                                 <ul>
+                                   <li><a href="https://plus.google.com/u/0/+JigarPatel28">Google+</a></li>
+                                   <li><a href="http://www.facebook.com/matthew.s.levine">Facebook</a></li>
+                                   <li><a href="https://twitter.com/jigarbhaipatel">Twitter</a></li>
+                                   <li><a href="https://www.instagram.com/jpatel292/">Instagram</a></li>
+
+
+
+                                 </ul>
+
+                             </div>
+
+                             <div class="paragraph">
+
+
+                                 <h2>My Favorite Movies</h2>
+                                 <ol id="orderedlist">
+                                   <li>Avatar</li>
+                                   <li>The Lord Of The Rings</li>
+                                   <li>IP man</li>
+                                 </ol>
+
+                             </div>
+
+
+                             <div class="paragraph">
+
+                                 <ul id="unorderedlist">
+
+                                   <li>Avatar</li>
+                                   <li>The Lord Of The Rings</li>
+                                   <li>IP man</li>
+
+                                 </ul>
+
+                               </div>
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+          </div>
+          <div class="mdl-card__actions mdl-card--border">
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+              Get Started
+            </a>
+          </div>
+          <div class="mdl-card__menu">
+            <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+              <i class="material-icons">share</i>
+            </button>
+          </div>
+        </div>
+
+
+
+
+
+
+
+      </div>
+    </main>
+  </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+
+.demo-card-wide.mdl-card {
+  width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 600px;
+  background: url('https://scontent-ort2-2.cdninstagram.com/t51.2885-15/e35/18252942_118601585373870_6809030388443250688_n.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
